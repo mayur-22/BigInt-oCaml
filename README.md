@@ -38,10 +38,10 @@ val mult : 'a * int list -> 'a * int list -> sign * int list = <fun>
 val div : 'a * int list -> 'a * int list -> sign * int list = <fun>
 val rem : 'a * int list -> 'a * int list -> sign * int list = <fun>
 
-
-
-
-
-
-
 ```
+
+To Do:
+* Add other functionalites for bigint such as 
+  * power function
+  * exponential function
+  * logarithm function

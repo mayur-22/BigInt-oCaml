@@ -8,7 +8,7 @@ bigint here is of the format (sign,int list)
 where sign can be Neg/NonNeg.
 Neg for negative numbers and NonNeg for positive numbers
 
-Other than helper functions it contains are:
+Other than helper functions it contains:
 ```oCaml
 type sign = Neg | NonNeg
 type bigint = sign * int list
